@@ -115,3 +115,59 @@ header {
     width: 60%;
 }
 
+/* _______________________________________________Bonus Section Style ________________________________________ */
+
+.bonus-section {
+    width : 85%;
+    margin : 100px auto ;
+}
+.bonus-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bonus-text {
+    width : 35%;
+}
+.bonus-2024 {
+    width : 30%;
+}
+.bonus-text-title {
+    color : red;
+}
+.bonus-text-subtitle {
+    color : black;
+    font-size : 33px;
+    margin: 15px 0px;
+}
+.bonus-text-description {
+    color: rgb(80, 78, 78);
+    font-size: small;
+    line-height: 25px;
+}
+.bonus-2024-title {
+    font-size: 35px ;
+    color: #F00;
+}
+.bonus-2024-description {
+    color: rgb(80, 78, 78);
+    font-size: small;
+    margin: 15px 0px 30px 0px;
+    line-height: 30px;
+}
+.bonus-img-container {
+    width: 30%;
+}
+.bonus-img-box {
+    height: 250px;
+    width: 250px;
+    border : 8px solid red;
+    border-radius: 50%;
+}
+.bonus-img-box  img {
+    width: 85%;
+    padding: 20px;
+}
+.bonus-2024 > img {
+    width: 30%;
+}
