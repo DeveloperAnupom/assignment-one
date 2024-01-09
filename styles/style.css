@@ -217,3 +217,57 @@ header {
 .img-box img {
     width: 100%;
 }
+
+/*______________________________________________  subscribe section design ___________________________________________*/
+
+.subscribe-container {
+    height: 80vh;
+    width : 80%;
+    background-color: rgb(228, 216, 216);
+    margin: 50px auto;
+    border-radius: 10px;
+}
+.subscribe-img {
+    display: flex;
+    justify-content: center;
+}
+.subscribe-img img {
+   width: 8%;
+   margin-top: 7%;
+}
+.subscribe-text {
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+}
+.subscribe-title {
+    font-size: 35px;
+    padding: 10px;
+}
+.subscribe-description {
+    font-size: 14px;
+    color: #717074;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.subscribe-form {
+    width: 50%;
+    margin : 30px auto;
+}
+.email {
+    font-size: 12px;
+    color: #545455;
+    background-color: rgb(247, 240, 240);
+    padding: 13px 70px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+}
+.submit {
+    color: #fefeff;
+    background-color: rgb(240, 29, 29);
+    padding: 13px 50px;
+    border: none;
+    border-radius: 0px  50px 50px 0px ;
+    margin-left: -10px;
+}
