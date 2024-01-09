@@ -171,3 +171,49 @@ header {
 .bonus-2024 > img {
     width: 30%;
 }
+
+/* ______________________________________________   gift section design _________________________________*/
+
+.gift-section {
+    width : 85%;
+    margin : 100px auto ;
+}
+.gift-section > h3 {
+    color: red;
+}
+.gift-section > h1 {
+   font-size: 40px;
+   margin: 20px 0px;
+}
+.gift-section > p {
+    color: rgb(99, 92, 92);
+    font-size: 15px;
+    line-height: 30px;
+    width: 65%;
+}
+
+.gift-img-container {
+    margin: 30px auto;
+}
+.gift-img-part1  {
+    display : flex;
+    justify-content: space-around;
+    gap : 30px;
+    margin-bottom: 40px;
+}
+.gift-img-part2  {
+    display : flex;
+    justify-content: space-around;
+    gap : 30px;
+    margin-top: 40px;
+}
+.img-box {
+    width : 60%;
+    transition: 0.5s;
+}
+.img-box:hover {
+    transform: scale(1.2);
+}
+.img-box img {
+    width: 100%;
+}
