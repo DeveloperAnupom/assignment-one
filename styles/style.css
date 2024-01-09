@@ -271,3 +271,51 @@ header {
     border-radius: 0px  50px 50px 0px ;
     margin-left: -10px;
 }
+
+/*___________________________________________  footer section design _______________________________________*/
+
+footer {
+    height: 70vh;
+    width: 100%;
+    background-color: #110302;
+}
+.footer-section {
+    width : 85%;
+    margin: 30px auto;
+}
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.footer-address , .footer-contact  {
+    color: #FFF;
+    width : 30%;
+    line-height: 35px;
+}
+.footer-contact > h5 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.footer-img {
+    width: 30%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-img img {
+    width: 12%;
+    cursor: pointer;
+}
+hr {
+    border : 1px solid rgb(59, 57, 57);
+    width : 100%;
+    margin: 20px auto;
+   
+}
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+}
